@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/*猜数游戏*/
 int main(){
     srand(time(0));
-    int number = rand()%100+1;
+    int number = rand()%100+1;//1-100以内的随机数
     int count = 0;
     int a = 0;
     printf("我已经想好了一个1到100之间的数。\n");

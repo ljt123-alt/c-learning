@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+/*让用户输入一系列数，最后输入-1表示输入结束，
+输出其中正整数的个数和平均数*/
 int main(){
     int number = 0;
     double average = 0;
